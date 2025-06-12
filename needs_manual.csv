@@ -1,20 +1,20 @@
 all_accession,HLA(I/II),分析场景,疾病类型
-PXD015957,Unspecified,Mixed,Melanoma
-PXD013064,I,Mixed,Unspecified
 PXD007860,Unspecified,Mixed,Cancer
-PXD007596,I,Immunology,Unspecified
+PXD013064,I,Mixed,Unspecified
 PXD013649,Unspecified,Mixed,Cancer
-PXD025073,Unspecified,Mixed,Unspecified
-MSV000081439,Unspecified,Unspecified,Unspecified
+PXD007596,I,Immunology,Unspecified
+PXD015957,Unspecified,Mixed,Melanoma
 PXD024965,Unspecified,Mixed,Breast Cancer
-PASS00211,Unspecified,Unspecified,Unspecified
 PXD022930,I/II,Immunology,Unspecified
-PXD029567,Unspecified,Mixed,COVID-19
 PXD025716,Unspecified,Mixed,Cancer
-PXD002439,II,Mixed,Unspecified
+PXD025073,Unspecified,Mixed,Unspecified
+PXD029567,Unspecified,Mixed,COVID-19
+MSV000081439,Unspecified,Unspecified,Unspecified
+PASS00211,Unspecified,Unspecified,Unspecified
 PXD001205,II,Mixed,Unspecified
-PXD003790,Unspecified,Mixed,Cancer
+PXD002439,II,Mixed,Unspecified
 PXD002951,II,Immunology,Unspecified
+PXD003790,Unspecified,Mixed,Cancer
 PXD003051,II,Mixed,Unspecified
 PXD004894,Unspecified,Mixed,Melanoma
 PXD004964,I,Mixed,Unspecified
@@ -24,9 +24,9 @@ PXD007679,I,Mixed,Unspecified
 PXD007935,I,Mixed,Unspecified
 PXD008500,I,Mixed,Unspecified
 PXD008570,I,Mixed,Unspecified
+PXD008572,I,Mixed,Unspecified
 PXD008571,I,Mixed,Unspecified
 PXD008937,Unspecified,Mixed,Melanoma
-PXD008572,I,Mixed,Unspecified
 PXD008984,Unspecified,Mixed,Cancer
 PXD009738,Unspecified,Mixed,Breast Cancer
 PXD009935,Unspecified,Immunology,Unspecified
@@ -34,10 +34,10 @@ PXD009925,I,Mixed,Unspecified
 PXD011628,Unspecified,Mixed,Cancer
 PXD011723,Unspecified,Mixed,Unspecified
 PXD012348,I,Mixed,Unspecified
+PXD015646,I/II,Immunology,Unspecified
 PXD017824,Unspecified,Mixed,Cancer
 PXD018151,II,Mixed,Unspecified
 PXD020186,Unspecified,Mixed,Cancer
-PXD015646,I/II,Immunology,Unspecified
 PXD024871,Unspecified,Mixed,Cancer
 PXD025655,Unspecified,Immunology,Unspecified
 PXD034429,Unspecified,Mixed,Unspecified

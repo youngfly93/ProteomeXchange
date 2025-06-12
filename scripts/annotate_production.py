@@ -256,7 +256,7 @@ def process_single_accession(acc, hla_patterns, scenario_patterns, disease_patte
     }
 
 def main():
-    """Main annotation function with parallel processing."""
+    """Main annotation function with parallel processing that preserves dataset order."""
     # Load configuration files
     hla_patterns = load_patterns("hla_patterns.yml")
     scenario_patterns = load_patterns("scenarios.yml")
@@ -270,29 +270,29 @@ def main():
         logger.error("No accessions found to process")
         return
     
-    # Results storage
-    results = []
+    # Results storage - use dictionary to maintain order
+    results_dict = {}
     needs_manual = []
     
     # Process with parallel execution
     logger.info(f"Processing {len(accessions)} accessions with parallel execution...")
     
     with ThreadPoolExecutor(max_workers=10) as executor:
-        # Submit all tasks
-        future_to_acc = {
+        # Submit all tasks with index to preserve order
+        future_to_info = {
             executor.submit(
                 process_single_accession, 
                 acc, hla_patterns, scenario_patterns, disease_patterns, meta_file
-            ): acc for acc in accessions
+            ): (idx, acc) for idx, acc in enumerate(accessions)
         }
         
         # Process completed tasks with progress bar
         with tqdm(total=len(accessions), desc="Annotating datasets") as pbar:
-            for future in as_completed(future_to_acc):
-                acc = future_to_acc[future]
+            for future in as_completed(future_to_info):
+                idx, acc = future_to_info[future]
                 try:
                     result = future.result()
-                    results.append(result)
+                    results_dict[idx] = result
                     
                     # Flag for manual review
                     if (result['HLA(I/II)'] == "Unspecified" or 
@@ -303,14 +303,17 @@ def main():
                 except Exception as e:
                     logger.error(f"Error processing {acc}: {e}")
                     # Add failed result
-                    results.append({
+                    results_dict[idx] = {
                         'all_accession': acc,
                         'HLA(I/II)': 'Unspecified',
                         '分析场景': 'Unspecified',
                         '疾病类型': 'Unspecified'
-                    })
+                    }
                 
                 pbar.update(1)
+    
+    # Convert to list preserving original order
+    results = [results_dict[i] for i in sorted(results_dict.keys())]
     
     # Write results with correct column names
     df_results = pd.DataFrame(results)
