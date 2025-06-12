@@ -1,0 +1,16 @@
+name: pxd_annot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas>=1.5.0
+  - requests>=2.28.0
+  - pyyaml>=6.0
+  - regex>=2022.7.9
+  - tqdm>=4.64.0
+  - joblib>=1.2.0
+  - pytest>=7.0.0
+  - pip
+  - pip:
+    - ppx>=0.4.0

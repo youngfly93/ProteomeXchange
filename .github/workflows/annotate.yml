@@ -1,0 +1,59 @@
+name: HLA Dataset Annotation
+
+on:
+  push:
+    paths: 
+      - 'meta.txt'
+      - 'diseases.yml'
+      - 'scenarios.yml'
+      - 'hla_patterns.yml'
+      - 'scripts/**'
+  pull_request:
+    paths:
+      - 'meta.txt'
+      - 'diseases.yml'
+      - 'scenarios.yml'
+      - 'hla_patterns.yml'
+      - 'scripts/**'
+
+jobs:
+  annotate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run annotation script
+        run: python scripts/process_existing.py
+      
+      - name: Run tests
+        run: python -m pytest tests/test_classification.py -v
+      
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit results
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add dataset_annotation.tsv needs_manual.csv
+          git commit -m "auto: update dataset annotations [skip ci]" || echo "no changes to commit"
+          git push

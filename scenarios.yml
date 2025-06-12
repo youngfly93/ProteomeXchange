@@ -1,0 +1,7 @@
+# Analysis scenario classification patterns
+Cancer: "(cancer|carcinoma|tumor|tumour|oncology|malignant|neoplasm|adenocarcinoma|melanoma|leukemia|lymphoma|glioblastoma|sarcoma)"
+Autoimmune: "(autoimmune|auto[- ]?immune|inflammatory|rheumatoid|diabetes|multiple sclerosis|celiac|behçet|ankylosing|sarcoidosis)"
+Infection: "(infection|infectious|virus|viral|bacterial|pathogen|covid|sars|hiv|hepatitis|tuberculosis|influenza|microbial)"
+Normal: "(normal|healthy|control|reference|cell line|baseline|physiological)"
+Immunology: "(immunology|immune|immunological|t[- ]?cell|b[- ]?cell|antigen|epitope|hla)"
+Mixed: "(mixed|multiple|various|combined|diverse)"

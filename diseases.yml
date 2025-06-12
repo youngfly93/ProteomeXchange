@@ -1,0 +1,37 @@
+# Disease classification patterns based on existing meta.txt data
+Cancer: "(cancer|carcinoma|tumor|tumour|melanoma|leukemia|leukaemia|lymphoma|glioblastoma|sarcoma|adenocarcinoma)"
+Breast_Cancer: "(breast cancer|mammary carcinoma)"
+Lung_Cancer: "(lung cancer|pulmonary carcinoma|nsclc|sclc|non[- ]?small cell lung cancer|small cell lung cancer)"
+Ovarian_Cancer: "(ovarian cancer|ovarian carcinoma)"
+Melanoma: "(melanoma|malignant melanoma)"
+Hepatocellular_Carcinoma: "(hepatocellular carcinoma|hcc|liver cancer)"
+Colorectal_Cancer: "(colorectal cancer|colon cancer|rectal cancer|crc)"
+Glioblastoma: "(glioblastoma|gbm|brain tumor|brain tumour)"
+Acute_Myeloid_Leukemia: "(acute myeloid leukemia|aml|acute myeloid leukaemia)"
+B_cell_Lymphoma: "(b[- ]?cell lymphoma|diffuse large b[- ]?cell lymphoma|dlbcl|mantle cell lymphoma)"
+Chronic_Myeloid_Leukemia: "(chronic myeloid leukemia|cml|chronic myeloid leukaemia)"
+Chronic_Lymphocytic_Leukemia: "(chronic lymphocytic leukemia|cll|chronic lymphocytic leukaemia)"
+Meningioma: "(meningioma|meningeal tumor)"
+
+# Autoimmune diseases
+Autoimmune: "(autoimmune|auto[- ]?immune)"
+Type_1_Diabetes: "(type ?1 diabetes|t1d|diabetes mellitus type 1)"
+Multiple_Sclerosis: "(multiple sclerosis|ms)"
+Rheumatoid_Arthritis: "(rheumatoid arthritis|ra)"
+Celiac_Disease: "(celiac disease|coeliac disease|gluten sensitivity)"
+Behcets_Disease: "(behçet|behcet|bechet)"
+Ankylosing_Spondylitis: "(ankylosing spondylitis|as)"
+Birdshot_Chorioretinopathy: "(birdshot chorioretinopathy|birdshot)"
+Sarcoidosis: "(sarcoidosis)"
+Lyme_Arthritis: "(lyme arthritis|lyme disease)"
+
+# Infectious diseases
+COVID-19: "(covid[- ]?19|sars[- ]?cov[- ]?2|coronavirus|2019[- ]?ncov)"
+HIV_Infection: "(hiv|human immunodeficiency virus|aids|siv|simian immunodeficiency virus)"
+Hepatitis_B: "(hepatitis b|hbv|hepatitis b virus)"
+Tuberculosis: "(tuberculosis|tb|mycobacterium tuberculosis)"
+Influenza: "(influenza|flu|influenza virus)"
+
+# Normal/Reference
+Cell_Line_Reference: "(cell line|reference|control|normal)"
+Unspecified: "(unspecified|unknown|not specified|unclear)"

@@ -1,0 +1,3 @@
+# HLA class classification patterns
+HLA_I: "\\b(hla[- ]?i|class[- ]?i|mhc[- ]?i|hla[- ]?class[- ]?i|mhc[- ]?class[- ]?i)\\b"
+HLA_II: "\\b(hla[- ]?ii|class[- ]?ii|mhc[- ]?ii|hla[- ]?class[- ]?ii|mhc[- ]?class[- ]?ii)\\b"
