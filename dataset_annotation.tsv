@@ -1,84 +1,84 @@
 all_accession	HLA	Scenario	Disease
-PXD005084	I	Cancer	Cancer
-PXD007596	I	Cancer	Breast Cancer
-PXD007860	I	Cancer	Cancer
-PXD010372	I	Cancer	Ovarian Cancer
-PXD013064	I	Autoimmune	Behcets Disease
-PXD013649	I	Cancer	Cancer
-PXD014397	I	Cancer	Melanoma
-PXD015957	I	Cancer	Melanoma
-PXD021177	I	Cancer	Cancer
-PXD022020	I	Cancer	Cancer
-PXD022930	II	Normal	Cell Line Reference
-PXD023143	I	Mixed	Mixed Hepatitis B HCC
-PXD024965	I	Cancer	Breast Cancer
-PXD025073	Unspecified	Normal	Unspecified
-PXD025499	I/II	Infection	COVID-19
-PXD025716	I	Cancer	Cancer
-PXD026184	I/II	Autoimmune	Type 1 Diabetes
-PXD027766	I	Cancer	Lung Cancer
-PXD029567	I	Infection	COVID-19
-PXD034820	I	Cancer	Lung Cancer
-PXD037270	I	Infection	Hepatocellular Carcinoma
-MSV000080527	I	Normal	Cell Line Reference
+PXD005084	Unspecified	Unspecified	Unspecified
+PXD007596	Unspecified	Unspecified	Unspecified
+PXD007860	Unspecified	Unspecified	Unspecified
+PXD010372	Unspecified	Unspecified	Unspecified
+PXD013064	Unspecified	Unspecified	Unspecified
+PXD013649	Unspecified	Unspecified	Unspecified
+PXD014397	Unspecified	Unspecified	Unspecified
+PXD015957	Unspecified	Unspecified	Unspecified
+PXD021177	Unspecified	Unspecified	Unspecified
+PXD022020	Unspecified	Unspecified	Unspecified
+PXD022930	Unspecified	Unspecified	Unspecified
+PXD023143	Unspecified	Unspecified	Unspecified
+PXD024965	Unspecified	Unspecified	Unspecified
+PXD025073	Unspecified	Unspecified	Unspecified
+PXD025499	Unspecified	Unspecified	Unspecified
+PXD025716	Unspecified	Unspecified	Unspecified
+PXD026184	Unspecified	Unspecified	Unspecified
+PXD027766	Unspecified	Unspecified	Unspecified
+PXD029567	Unspecified	Unspecified	Unspecified
+PXD034820	Unspecified	Unspecified	Unspecified
+PXD037270	Unspecified	Unspecified	Unspecified
+MSV000080527	I	Normal	Cell Line/Reference
 MSV000081439	Unspecified	Unspecified	Unspecified
 MSV000090437	I/II	Cancer	Lung Cancer
 PASS00211	Unspecified	Unspecified	Unspecified
-PXD000394	I	Cancer	Cancer
-PXD001205	II	Autoimmune	Celiac Disease
-PXD001898	I	Cancer	Cancer
-PXD002439	II	Autoimmune	Sarcoidosis
-PXD002951	II	Normal	Unspecified
-PXD003051	II	Autoimmune	Mixed Rheumatoid Lyme
-PXD003790	I	Cancer	Glioblastoma
-PXD004023	I	Mixed	Immune Related Conditions
-PXD004746	II	Cancer	Mantle Cell Lymphoma
-PXD004894	I	Cancer	Melanoma
-PXD004964	I	Infection	HIV Infection
-PXD005231	I	Cancer	Melanoma
-PXD006215	I	Autoimmune	Behcets Disease
-PXD006534	II	Autoimmune	Multiple Sclerosis
-PXD006939	I/II	Cancer	Cancer
-PXD007203	I	Normal	Unspecified
-PXD007635	I/II	Cancer	Ovarian Cancer
-PXD007679	I	Autoimmune	Birdshot Chorioretinopathy
-PXD007935	I	Cancer	Cell Line Reference
-PXD008500	I	Autoimmune	Ankylosing Spondylitis
-PXD008570	I	Immunology	Immune Related Conditions
-PXD008571	I	Immunology	Immune Related Conditions
-PXD008572	I	Immunology	Immune Related Conditions
-PXD008937	I	Normal	Melanoma
-PXD008984	I	Cancer	Glioblastoma
-PXD009531	I	Immunology	Immune Related Conditions
-PXD009602	I/II	Cancer	Colorectal Cancer
-PXD009738	I	Cancer	Breast Cancer
-PXD009749	I	Cancer	Mixed Lung Cancer B-ALL
-PXD009753	I	Cancer	Mixed Lung Cancer B-ALL
-PXD009754	I	Cancer	Mixed Lung Cancer B-ALL
-PXD009755	I	Cancer	Mixed Lung Cancer B-ALL
-PXD009925	I	Cancer	Meningioma
-PXD009935	I	Cancer	Meningioma
-PXD010450	I/II	Cancer	Chronic Myeloid Leukemia
-PXD010808	II	Cancer	B-cell Lymphoma
-PXD011628	I	Cancer	Cancer
-PXD011723	I	Immunology	Unspecified
-PXD012083	I	Cancer	Acute Myeloid Leukemia
-PXD012308	II	Cancer	Immune Related Conditions
-PXD012348	I	Autoimmune	Behcets Disease
-PXD013057	I	Cancer	Hepatocellular Carcinoma
-PXD013831	I	Cancer	Cancer
-PXD014017	I/II	Cancer	Colorectal Cancer
-PXD015646	I/II	Infection	Tuberculosis
-PXD017824	I	Cancer	Cancer
-PXD018151	II	Infection	Influenza
-PXD018542	I	Cancer	Acute Myeloid Leukemia
-PXD020186	I	Cancer	Cancer
-PXD020620	I	Cancer	Diffuse Large B-cell Lymphoma
-PXD022150	I/II	Cancer	Melanoma
-PXD022949	I	Cancer	Mixed Melanoma Lung Cancer
-PXD023044	I/II	Cancer	Breast Cancer
-PXD024871	I	Cancer	Chronic Lymphocytic Leukemia
-PXD025655	I	Normal	Unspecified
-PXD034429	I	Normal	Unspecified
-PXD034773	II	Immunology	Lung Cancer
-PXD043989	I	Cancer	Mixed Melanoma Lung Cancer
+PXD000394	Unspecified	Unspecified	Unspecified
+PXD001205	Unspecified	Unspecified	Unspecified
+PXD001898	Unspecified	Unspecified	Unspecified
+PXD002439	Unspecified	Unspecified	Unspecified
+PXD002951	Unspecified	Unspecified	Unspecified
+PXD003051	Unspecified	Unspecified	Unspecified
+PXD003790	Unspecified	Unspecified	Unspecified
+PXD004023	Unspecified	Unspecified	Unspecified
+PXD004746	Unspecified	Unspecified	Unspecified
+PXD004894	Unspecified	Unspecified	Unspecified
+PXD004964	Unspecified	Unspecified	Unspecified
+PXD005231	Unspecified	Unspecified	Unspecified
+PXD006215	Unspecified	Unspecified	Unspecified
+PXD006534	Unspecified	Unspecified	Unspecified
+PXD006939	Unspecified	Unspecified	Unspecified
+PXD007203	Unspecified	Unspecified	Unspecified
+PXD007635	Unspecified	Unspecified	Unspecified
+PXD007679	Unspecified	Unspecified	Unspecified
+PXD007935	Unspecified	Unspecified	Unspecified
+PXD008500	Unspecified	Unspecified	Unspecified
+PXD008570	Unspecified	Unspecified	Unspecified
+PXD008571	Unspecified	Unspecified	Unspecified
+PXD008572	Unspecified	Unspecified	Unspecified
+PXD008937	Unspecified	Unspecified	Unspecified
+PXD008984	Unspecified	Unspecified	Unspecified
+PXD009531	Unspecified	Unspecified	Unspecified
+PXD009602	Unspecified	Unspecified	Unspecified
+PXD009738	Unspecified	Unspecified	Unspecified
+PXD009749	Unspecified	Unspecified	Unspecified
+PXD009753	Unspecified	Unspecified	Unspecified
+PXD009754	Unspecified	Unspecified	Unspecified
+PXD009755	Unspecified	Unspecified	Unspecified
+PXD009925	Unspecified	Unspecified	Unspecified
+PXD009935	Unspecified	Unspecified	Unspecified
+PXD010450	Unspecified	Unspecified	Unspecified
+PXD010808	Unspecified	Unspecified	Unspecified
+PXD011628	Unspecified	Unspecified	Unspecified
+PXD011723	Unspecified	Unspecified	Unspecified
+PXD012083	Unspecified	Unspecified	Unspecified
+PXD012308	Unspecified	Unspecified	Unspecified
+PXD012348	Unspecified	Unspecified	Unspecified
+PXD013057	Unspecified	Unspecified	Unspecified
+PXD013831	Unspecified	Unspecified	Unspecified
+PXD014017	Unspecified	Unspecified	Unspecified
+PXD015646	Unspecified	Unspecified	Unspecified
+PXD017824	Unspecified	Unspecified	Unspecified
+PXD018151	Unspecified	Unspecified	Unspecified
+PXD018542	Unspecified	Unspecified	Unspecified
+PXD020186	Unspecified	Unspecified	Unspecified
+PXD020620	Unspecified	Unspecified	Unspecified
+PXD022150	Unspecified	Unspecified	Unspecified
+PXD022949	Unspecified	Unspecified	Unspecified
+PXD023044	Unspecified	Unspecified	Unspecified
+PXD024871	Unspecified	Unspecified	Unspecified
+PXD025655	Unspecified	Unspecified	Unspecified
+PXD034429	Unspecified	Unspecified	Unspecified
+PXD034773	Unspecified	Unspecified	Unspecified
+PXD043989	Unspecified	Unspecified	Unspecified
