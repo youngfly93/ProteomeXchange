@@ -1,0 +1,84 @@
+all_accession	HLA	Scenario	Disease
+PXD005084	I	Mixed	Multiple Sclerosis
+PXD007596	I	Immunology	Multiple Sclerosis
+PXD007860	Unspecified	Mixed	Multiple Sclerosis
+PXD010372	I	Mixed	Ovarian Cancer
+PXD013064	I	Mixed	Multiple Sclerosis
+PXD013649	Unspecified	Mixed	Multiple Sclerosis
+PXD014397	I	Mixed	Melanoma
+PXD015957	Unspecified	Mixed	Melanoma
+PXD021177	I	Mixed	Multiple Sclerosis
+PXD022020	I	Mixed	Multiple Sclerosis
+PXD022930	I/II	Immunology	Multiple Sclerosis
+PXD023143	I	Mixed	Hepatocellular Carcinoma
+PXD024965	Unspecified	Mixed	Breast Cancer
+PXD025073	Unspecified	Mixed	Multiple Sclerosis
+PXD025499	I/II	Mixed	COVID-19
+PXD025716	Unspecified	Mixed	Multiple Sclerosis
+PXD026184	I/II	Mixed	Type 1 Diabetes
+PXD027766	I	Mixed	Lung Cancer
+PXD029567	Unspecified	Mixed	COVID-19
+PXD034820	I	Mixed	Lung Cancer
+PXD037270	I	Mixed	Hepatocellular Carcinoma
+MSV000080527	I	Normal	Cell Line/Reference
+MSV000081439	Unspecified	Unspecified	Unspecified
+MSV000090437	I/II	Cancer	Lung Cancer
+PASS00211	Unspecified	Unspecified	Unspecified
+PXD000394	I	Mixed	Multiple Sclerosis
+PXD001205	II	Mixed	Multiple Sclerosis
+PXD001898	I	Mixed	Multiple Sclerosis
+PXD002439	II	Mixed	Multiple Sclerosis
+PXD002951	II	Immunology	Multiple Sclerosis
+PXD003051	II	Mixed	Multiple Sclerosis
+PXD003790	Unspecified	Mixed	Glioblastoma
+PXD004023	I	Mixed	Multiple Sclerosis
+PXD004746	I/II	Mixed	Multiple Sclerosis
+PXD004894	Unspecified	Mixed	Melanoma
+PXD004964	I	Mixed	Multiple Sclerosis
+PXD005231	I	Mixed	Melanoma
+PXD006215	I	Mixed	Multiple Sclerosis
+PXD006534	II	Mixed	Multiple Sclerosis
+PXD006939	I/II	Mixed	Ovarian Cancer
+PXD007203	I	Mixed	Multiple Sclerosis
+PXD007635	I/II	Mixed	Ovarian Cancer
+PXD007679	I	Mixed	Multiple Sclerosis
+PXD007935	I	Mixed	Multiple Sclerosis
+PXD008500	I	Mixed	Multiple Sclerosis
+PXD008570	I	Mixed	Multiple Sclerosis
+PXD008571	I	Mixed	Multiple Sclerosis
+PXD008572	I	Mixed	Multiple Sclerosis
+PXD008937	Unspecified	Mixed	Melanoma
+PXD008984	Unspecified	Mixed	Glioblastoma
+PXD009531	I	Mixed	Multiple Sclerosis
+PXD009602	I/II	Mixed	Colorectal Cancer
+PXD009738	Unspecified	Mixed	Breast Cancer
+PXD009749	I	Mixed	Multiple Sclerosis
+PXD009753	I	Mixed	Multiple Sclerosis
+PXD009754	I	Mixed	Lung Cancer
+PXD009755	I	Mixed	Lung Cancer
+PXD009925	I	Mixed	Multiple Sclerosis
+PXD009935	Unspecified	Immunology	Multiple Sclerosis
+PXD010450	I/II	Mixed	Multiple Sclerosis
+PXD010808	I/II	Mixed	Multiple Sclerosis
+PXD011628	Unspecified	Mixed	Multiple Sclerosis
+PXD011723	Unspecified	Mixed	Multiple Sclerosis
+PXD012083	I	Mixed	Multiple Sclerosis
+PXD012308	II	Mixed	Multiple Sclerosis
+PXD012348	I	Mixed	Multiple Sclerosis
+PXD013057	I	Mixed	Hepatocellular Carcinoma
+PXD013831	I	Mixed	Multiple Sclerosis
+PXD014017	I/II	Mixed	Colorectal Cancer
+PXD015646	I/II	Immunology	Multiple Sclerosis
+PXD017824	Unspecified	Mixed	Multiple Sclerosis
+PXD018151	II	Mixed	Multiple Sclerosis
+PXD018542	I	Mixed	Multiple Sclerosis
+PXD020186	Unspecified	Mixed	Glioblastoma
+PXD020620	I	Mixed	Multiple Sclerosis
+PXD022150	I/II	Mixed	Melanoma
+PXD022949	I	Mixed	Melanoma
+PXD023044	I/II	Mixed	Breast Cancer
+PXD024871	Unspecified	Mixed	Multiple Sclerosis
+PXD025655	Unspecified	Immunology	Multiple Sclerosis
+PXD034429	Unspecified	Mixed	Multiple Sclerosis
+PXD034773	II	Mixed	Multiple Sclerosis
+PXD043989	Unspecified	Mixed	Melanoma
