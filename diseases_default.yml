@@ -1,0 +1,40 @@
+# Default disease classification patterns - Top diseases from HLA immunopeptidomics studies
+
+# Infectious diseases (高优先级)
+COVID-19: "(covid[- ]?19|sars[- ]?cov[- ]?2|coronavirus|2019[- ]?ncov)"
+HIV_Infection: "(hiv|human immunodeficiency virus|aids|siv|simian immunodeficiency virus)"
+Influenza: "(influenza|flu|h1n1|h3n2|influenza virus)"
+Tuberculosis: "(tuberculosis|tb|mycobacterium tuberculosis)"
+Hepatitis_B: "(hepatitis b|hbv|hepatitis b virus)"
+Hepatitis_C: "(hepatitis c|hcv|hepatitis c virus)"
+
+# Specific cancers (中优先级)
+Melanoma: "(melanoma|malignant melanoma|skin cancer)"
+Breast_Cancer: "(breast cancer|mammary carcinoma|triple[- ]?negative breast)"
+Lung_Cancer: "(lung cancer|pulmonary carcinoma|nsclc|sclc|non[- ]?small cell lung|small cell lung)"
+Colorectal_Cancer: "(colorectal cancer|colon cancer|rectal cancer|crc)"
+Ovarian_Cancer: "(ovarian cancer|ovarian carcinoma)"
+Hepatocellular_Carcinoma: "(hepatocellular carcinoma|hcc|liver cancer)"
+Glioblastoma: "(glioblastoma|gbm|brain tumor|brain tumour|glioma)"
+Acute_Myeloid_Leukemia: "(acute myeloid leukemia|aml|acute myeloid leukaemia)"
+Chronic_Lymphocytic_Leukemia: "(chronic lymphocytic leukemia|cll|chronic lymphocytic leukaemia)"
+B_cell_Lymphoma: "(b[- ]?cell lymphoma|diffuse large b[- ]?cell lymphoma|dlbcl|mantle cell lymphoma)"
+
+# Autoimmune diseases
+Type_1_Diabetes: "(type ?1 diabetes|t1d|diabetes mellitus type 1|iddm)"
+Multiple_Sclerosis: "\\b(multiple sclerosis)\\b"
+Rheumatoid_Arthritis: "\\b(rheumatoid arthritis)\\b"
+Celiac_Disease: "(celiac disease|coeliac disease|gluten sensitivity)"
+Systemic_Lupus_Erythematosus: "(systemic lupus erythematosus|sle|lupus)"
+Inflammatory_Bowel_Disease: "(inflammatory bowel disease|ibd|crohn|ulcerative colitis)"
+
+# Analysis types / contexts
+Cell_Line_Reference: "(cell line|reference sample|control sample|normal tissue|healthy donor)"
+Phosphoproteomics: "(phospho|phosphorylation|phosphorylated|phosphopeptide)"
+Immunopeptidomics: "(immunopeptidomics|immunopeptidome|hla[- ]?peptide|mhc[- ]?peptide|antigen presentation)"
+
+# General categories (低优先级 - 放最后)
+Cancer: "(cancer|carcinoma|tumor|tumour|oncology|malignant|neoplasm|leukemia|leukaemia|lymphoma|sarcoma)"
+Autoimmune: "(autoimmune|auto[- ]?immune|inflammatory disease)"
+Infection: "(infection|infectious disease|pathogen)"
+Unspecified: ""
