@@ -1,22 +1,22 @@
 all_accession,HLA,Scenario,Disease
-PXD007860,Unspecified,Mixed,Multiple Sclerosis
-PXD013649,Unspecified,Mixed,Multiple Sclerosis
+PXD007860,Unspecified,Mixed,HIV Infection
+PXD013649,Unspecified,Mixed,Cancer
 PXD015957,Unspecified,Mixed,Melanoma
 PXD024965,Unspecified,Mixed,Breast Cancer
-PXD025073,Unspecified,Mixed,Multiple Sclerosis
-PXD025716,Unspecified,Mixed,Multiple Sclerosis
+PXD025073,Unspecified,Mixed,Phosphoproteomics
+PXD025716,Unspecified,Mixed,Cell Line Reference
 PXD029567,Unspecified,Mixed,COVID-19
 PXD003790,Unspecified,Mixed,Glioblastoma
 PXD004894,Unspecified,Mixed,Melanoma
 PXD008937,Unspecified,Mixed,Melanoma
 PXD008984,Unspecified,Mixed,Glioblastoma
 PXD009738,Unspecified,Mixed,Breast Cancer
-PXD009935,Unspecified,Immunology,Multiple Sclerosis
-PXD011628,Unspecified,Mixed,Multiple Sclerosis
-PXD011723,Unspecified,Mixed,Multiple Sclerosis
-PXD017824,Unspecified,Mixed,Multiple Sclerosis
+PXD009935,Unspecified,Immunology,Ankylosing Spondylitis
+PXD011628,Unspecified,Mixed,HIV Infection
+PXD011723,Unspecified,Mixed,Cell Line Reference
+PXD017824,Unspecified,Mixed,HIV Infection
 PXD020186,Unspecified,Mixed,Glioblastoma
-PXD024871,Unspecified,Mixed,Multiple Sclerosis
-PXD025655,Unspecified,Immunology,Multiple Sclerosis
-PXD034429,Unspecified,Mixed,Multiple Sclerosis
+PXD024871,Unspecified,Mixed,Cancer
+PXD025655,Unspecified,Immunology,Influenza
+PXD034429,Unspecified,Mixed,Cell Line Reference
 PXD043989,Unspecified,Mixed,Melanoma
